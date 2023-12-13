@@ -51,7 +51,7 @@ public class dataTypeCalculations
 //        System.out.println(c4);
 
           char u1= 'a';//97
-          char u2='b';
+          char u2='b'; //98
 
         System.out.println((int)u1);
         System.out.println((int)u2);
@@ -70,7 +70,7 @@ public class dataTypeCalculations
         boolean bln=false;
         System.out.println(bln);
 
-
+        System.out.println(u1+""+u2);//ab
 
         //range
         // memory
