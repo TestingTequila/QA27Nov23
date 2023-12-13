@@ -1,14 +1,13 @@
 package Session9;
 
-public class print
-{
+public class print {
     public static void main(String[] args) {
         // byte
-        byte b1=10;
+        byte b1 = 10;
         System.out.println(b1);
 
         // short
-        short s1=150;
+        short s1 = 150;
         System.out.println(s1);
 
         // 32769
