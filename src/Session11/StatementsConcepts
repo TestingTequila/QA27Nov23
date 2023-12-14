@@ -1,0 +1,55 @@
+1. Whenever you want to make decisions, you need to use statements
+   a) if Statement
+      if(DefineYourCondition)
+      {
+         This code will execute only if condition defined is true
+      }
+
+      If you have written multiple if statements, all of them will be checked and if the condition is true,
+      it will execute the code written within the {} braces of that statement
+      --------------------------------------------------------------------------
+   b) if else-statement
+         if(DefineYourCondition)
+         {
+            This code will execute only if condition defined is true
+         }
+         else
+         {
+             This code will execute if condition defined is false
+         }
+
+      --------------------------------------------------------------------------
+
+   c) difference between if and if-else statement
+     => Avoid using multiple if statements with else statement
+--------------------------------------------------------------------------------
+   d) Multiple if-elseif statement
+   if(condition1)
+   {
+       Execute Condition 1
+   }
+
+   else if(condition2)
+      {
+          Execute Condition 2
+      }
+
+   else if(condition2)
+      {
+          Execute Condition 2
+      }
+   else if(conditionN)
+      {
+          Execute Condition N
+      }
+
+      else
+      {
+           Execute this if none of the above condition is true
+      }
+     ==> Performance will be compromised if the condition it matches comes in the later stage of program.
+
+   e) switch Statement
+   f) difference between multiple if elseif statement and switch statement
+
+   ==> DEBUGGING
