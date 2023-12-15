@@ -1,0 +1,32 @@
+1. What are loops and when to use loops: loops is a way to handle repetative tasks
+   => Group of something and you want to perform some operation over that group
+
+2. Types of Loops
+   -while loop
+     --------------------------------------------------------
+     Define a variable;
+     while(condition)
+     {
+       This code will be executed, if condition is true;
+       I/D;
+     }
+    --------------------------------------------------------
+   -for loop
+
+        for(Define a variable;condition; I/D)
+        {
+          This code will be executed, if condition is true;
+        }
+       --------------------------------------------------------
+   -advanced for loop
+
+   When to ideally use while loop and for loop
+   1- when number of iterations are not fixed - prefer while
+   2- infinite loading - LinkedIn, Facebook, swiggy
+   3- calenders, paginations
+
+   // 1.Statement and loops
+   // 2. Arrays and collections
+   // 3. methods and its Type
+
+

@@ -25,6 +25,5 @@ public class BrowserType_Switch
                 System.out.println("Execute Test case on safari browser");
                 break;
         }
-        Can i use equalsIgnoreCase function in this switch statement
     }
 }
