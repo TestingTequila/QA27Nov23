@@ -19,6 +19,10 @@
         }
        --------------------------------------------------------
    -advanced for loop
+    for(DataTypeOfGroup aliasName: NameOfGroup)
+    {
+      Action
+    }
 
    When to ideally use while loop and for loop
    1- when number of iterations are not fixed - prefer while

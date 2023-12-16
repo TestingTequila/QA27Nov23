@@ -19,14 +19,18 @@
         }
        --------------------------------------------------------
    -advanced for loop
+    for(DataTypeOfGroup aliasName: NameOfGroup)
+    {
+      Action
+    }
 
-   2*1 = 2
-   2*2 = 4
-   2*3 = 6
-   2*4 = 8
-   2*5 = 10
-   2*6 = 12
-   2*7 = 14
-   2*8 = 16
-   2*9 = 18
-   2*10 = 20
+   When to ideally use while loop and for loop
+   1- when number of iterations are not fixed - prefer while
+   2- infinite loading - LinkedIn, Facebook, swiggy
+   3- calenders, paginations
+
+   // 1.Statement and loops
+   // 2. Arrays and collections
+   // 3. methods and its Type
+
+
