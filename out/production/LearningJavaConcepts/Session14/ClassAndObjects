@@ -1,0 +1,20 @@
+1. What is class: Its a Template
+2. What is object: Every copy of template is known as Object
+3. How are they Related: A class is a template and every copy of the class that we create is known as its Object
+   Syntax://NameOfTHeClassWhoseCopy/ObjectYouWantToCreate aliasName = new NameOfTHeClassWhoseCopy/ObjectYouWantToCreate();
+
+   Abacus --> Name of the class
+   -Abacus slate =new Abacus();
+   -Abacus board=new Abacus();
+
+   Employee --> Name of the class
+   Employee emp1= new Employee();
+   Employee emp2= new Employee();
+
+   MobilePhone--> NameOfClass
+   MobilePhone samsung=new MobilePhone();
+   MobilePhone apple= new MobilePhone();
+   MobilePhone hethexa=new MobilePhone();
+
+4. Memory Management in terms of class and Object
+5. Miscellaneous scenarios

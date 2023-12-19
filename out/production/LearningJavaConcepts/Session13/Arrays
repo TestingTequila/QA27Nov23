@@ -9,6 +9,9 @@
 
 3- To know the size of an array --> nameOfTheArray.length
 
+==> Use Array only when the count of value you want to store will remain static.
+    To handle dynamic addition of values, we will learn about collections ...
+
     Arrays + Loops
     To store multiple values use Arrays + and to perform any operation or action over the array we use, Loops
     => Arrays and Loops most of the times go together
