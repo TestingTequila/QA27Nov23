@@ -1,0 +1,11 @@
+// 1. What are Methods: Methods are actions performed over the variables of the class
+// 2. Syntax of Method:
+   AccessModifier[public,private, protected] returnType[void, dataTypes] methodName(can/t parameters)
+   {
+      Action over variables of the class
+   }
+
+   // What is access modifier: Defines the accessibility of variable or methods
+
+
+// 3. Types Of Methods
