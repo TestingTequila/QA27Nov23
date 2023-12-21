@@ -1,0 +1,13 @@
+   AccessModifier[public,private, protected] returnType[void, dataTypes] methodName(can/t parameters)
+   {
+      Action over variables of the class
+   }
+
+
+// 3. Types Of Methods
+       Global Variables: That can be used/shared by all the methods of the class
+       Parameters      : Don't want to share your variables with other methods of the class, use those variables as parameters
+
+       If we come across scenario where within the same class we have global variable name same as parameters name, in such case
+       to differentiate global variable with parameter we use 'this' keyword to call global variables
+       -> How to assign value of parameters to global variable
