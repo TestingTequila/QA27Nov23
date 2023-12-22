@@ -1,0 +1,6 @@
+1. If you use anything apart from void, in methods, use return keyword at the end the program within the method
+use return keyword just above the closing curly braces of the method
+
+2. You have to return something which has same data type as the data type of your method
+3. Since the  method is returning me something, i can store that value and can perform further calculation
+   and manipulation over it

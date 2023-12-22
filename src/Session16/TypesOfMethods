@@ -15,5 +15,5 @@
        >Global Variable-> Variables outside method within the class, can be shared by multiple methods within the class
        > Local Variable -> Variable inside the method, always assign value to it, cannot be changed while calling unlike global variables and parameters
        > Parameters -> Variable within the curved bracket of the methods, cannot be shared by other methods
-       > Both global variables and parameters give variable result depepndining upon what value you assign
+       > Both global variables and parameters give variable result depending upon what value you assign
        > Use 'this' keyword to differentiate between global variable and parameters with the same name. 'this' keyword should be used to call global variables
