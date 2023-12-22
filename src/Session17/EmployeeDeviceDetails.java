@@ -2,21 +2,21 @@ package Session17;
 
 public class EmployeeDeviceDetails {
     public String[] getEmployeeDeviceDetails(String empName) {
+        String [] devices;
         if (empName.equals("Jason")) {
-            String[] devices = {"macbook pro", "ipad", "iph15"};
-            return devices;
+            devices = new String[]{"macbook pro", "ipad", "iph15"};
         }
         else if (empName.equals("Harry")) {
-            String[] devices = {"Windows10", "Samsung10"};
-            return devices;
+            devices = new String[]{"Windows10", "Samsung10"};
         }
 
         else if (empName.equals("Kerrie")) {
-            String[] devices = {"Windows10", "Samsung10", "iphone14"};
-            return devices;
+            devices = new String[]{"Windows10", "Samsung10", "iphone14"};
         }
-        else
+        else {
             System.out.println("Employee name not found....");
-        return new String[0];
+            devices = new String[]{""};
+        }
+        return devices;
     }
 }
