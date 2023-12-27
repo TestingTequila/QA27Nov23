@@ -1,0 +1,16 @@
+METHOD OVERLOADING: These are the methods with same names and different parameters
+
+1. In a class we can have two or more methods with same name provided their parameters
+   are different
+   How we can make parameters different
+   -By changing the data types of the parameter
+   -By changing the count of parameters
+   -By changing the order of parameters
+
+2. Even if Access modifier and return type of two methods with same name and same parameters exists
+   this is not an example of method overloading ans will throw error.
+   To rectify this error, you need to change the parameter.
+
+
+3. Method overloading is also known as Compile time polymorphism or static polymorphism
+4. main method can be overloaded
