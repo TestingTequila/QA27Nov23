@@ -1,5 +1,7 @@
 1. If there is some common property value for all the objects of the class, make it static
-2. If variable or methods are part of object, they need to be accessed through object reference variables only
-3. static as we know is not part of object and hence cannot be accessed through object reference variable.
-4. static variables/methods can be accessed directly through class name
-5. Local variables can't be static
+2. Common memory allocation is used for storing static properties of the object
+3. If variable or methods are part of object, they need to be accessed through object reference variables only
+4. static as we know is not part of object and hence cannot be accessed through object reference variable.
+5. static variables/methods can be accessed directly through class name
+6. Local variables can't be static
+7. If you don't want to change the value of static variable, make it final

@@ -8,7 +8,7 @@ METHOD OVERLOADING: These are the methods with same names and different paramete
    -By changing the order of parameters
 
 2. Even if Access modifier and return type of two methods with same name and same parameters exists
-   this is not an example of method overloading ans will throw error.
+   this is not an example of method overloading and will throw error.
    To rectify this error, you need to change the parameter.
 
 
