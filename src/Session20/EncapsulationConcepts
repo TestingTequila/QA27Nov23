@@ -1,0 +1,8 @@
+-Encapsulation in Java is the process by which (variables) and (methods) are integrated as a single unit.
+-By encapsulating a class's variables, other classes cannot access them, and only the methods of the class can access them.
+
+=> Create variables within the class and make them private so that they are not accessible in other classes
+
+-private variable, public setter/getter method - Encapsulation
+-private variable, Constructor/getter method   - Encapsulation
+-private methods within public method          - Encapsulation
