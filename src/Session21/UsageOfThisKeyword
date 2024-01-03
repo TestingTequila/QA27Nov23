@@ -1,0 +1,15 @@
+1. If global variable name is same as name of parameters, to differentiate between them, we use this keyword along with global variable
+2. If the return type of a method is this, it means the method will return the object of the same class
+   => instead of using new ClassName() as return we prefer using this keyword,
+      as this will return the same object of the class rather than creating a new Object
+3. To call one constructor inside other constructor, we use this keyword.
+   => Constructor calling should be the first statement inside other constructor.
+      You cannot call a constructor inside a method
+      -> Method will be part of object and object is constructed using constructor,
+         so we cannot call the constructor before creating the object
+
+         =======================================================
+a) Call by value Vs Call by Reference
+   Call by Reference has an advantage that same object can be used again and again, by different references
+
+
