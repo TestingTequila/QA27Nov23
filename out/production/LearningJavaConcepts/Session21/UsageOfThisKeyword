@@ -8,3 +8,8 @@
       -> Method will be part of object and object is constructed using constructor,
          so we cannot call the constructor before creating the object
 
+         =======================================================
+a) Call by value Vs Call by Reference
+   Call by Reference has an advantage that same object can be used again and again, by different references
+
+
