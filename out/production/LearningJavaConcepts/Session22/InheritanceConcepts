@@ -3,8 +3,8 @@
 3. A extends B means : B is parent and A is child => B is inheriting all the non-private properties of A
 ============================================================================================================
 Types of methods:
-1. Abstract method
-2. Concrete Method
+1. Abstract method- Just Definition with no implementation
+2. Concrete Method- Has both definition and implementation
 
 -We cannot crete object of an abstract class
 - Class Vs Abstract Class Vs Interface
@@ -12,4 +12,5 @@ Types of methods:
 => Abstract class can have both concrete and abstract methods
 => Interface will have only abstract methods
 
-- We cannot crete object of interface as well
+- We cannot crete object of interface as well as Abstract class
+- To inherit interface into a class we need to use the keyword - 'implements'

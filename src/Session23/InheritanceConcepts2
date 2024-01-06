@@ -1,0 +1,26 @@
+-Method overloading is existence of multiple methods with  the same name within the same class
+-Method overriding is existence of multiple methods with same name in different classes
+- In order to implement method overriding, the classes need to have parent-child relationship
+-Overriding: Rules
+  -Parent child relationship should exists within the classes
+  -Child class should have method with same name as parent class
+  -Child class method and parent class method with same names should have same parameter
+  -Child class method and parent class method with same names should have the same return type
+
+  TO check if a method is overridden or not in child class use '@Override' in the method of the child class
+  -Method Overriding is also known as runtime polymorphism or Dynamic Polymorphism
+  -A class cannot have more than one parent as this will lead to diamond problem.
+  -Multiple inheritance among classes is not possible in Java
+
+  TopCasting Concept:
+  - For Top casting to happen among classes, they should have parent-child relationship among them
+  - We can refer child class object using parent class reference variable.
+  => Car [ Car car = new Car]
+  => BMW [BMW bmw = new BMW()]
+  => Car car= new BMW(); [ TOP CASTING]
+
+  DownCasting Concept:
+  // DownCasting
+  For down casting to happen among classes, they should have parent-child relationship among them
+  - We cannot refer parent class object using child class reference variable at compile in Java
+  BMW bmw = new Car(); // DownCasting is not possible in Java at compile time
