@@ -23,4 +23,6 @@
   // DownCasting
   For down casting to happen among classes, they should have parent-child relationship among them
   - We cannot refer parent class object using child class reference variable at compile in Java
-  BMW bmw = new Car(); // DownCasting is not possible in Java at compile time
+  BMW bmw = new Car();
+  BMW bmw = (BMW)new Car();// DownCasting is possible in Java at compile time. But at runtime this will give you
+                           // ClassCastException.

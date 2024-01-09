@@ -1,0 +1,10 @@
+1. We cannot override a method with final keyword.
+2. All the methods within a final class cannot be overridden as final class cannot be inherited or cannot be parent.
+3. final keyword is used to store constant value.
+
+==========================================================================
+Static method can be inherited.
+Static methods cannot be overridden.
+Ex: main method can be overloaded and inherited, but can't be overridden.
+=> So method hiding is having same static method in both parent and child class and these methods are completely independent of each other.
+1. Overloading of static method is possible, but overriding isn't possible
