@@ -2,7 +2,7 @@ package Session24;
 
 public class Vehicle
 {
-    public  void aIBreak()
+    public static void aIBreak()
     {
         System.out.println("Vehicle -- aiBreak");
     }
