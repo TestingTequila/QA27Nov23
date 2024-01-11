@@ -1,0 +1,24 @@
+1. We cannot make abstract methods as final
+2. Abstract methods cannot be static
+3. Abstract methods cannot have access modifier as private
+4. Variables in an interface is static and final by default.
+5. If child class has same variables as parent class interface, the child class variable will take priority
+// ---------------------------------------------JDK 1.8 -----------------------------------
+
+6. An interface can have concrete static method. This method cannot be overridden in child class just like a concrete
+   static method from a normal class as its static.
+   Static method in a normal class can be inherited in the  child class but the concrete static method we have in interface
+   cannot be inherited either.
+   => Concrete static methods in a CLASS can be inherited but cannot be overridden.
+   => Concrete static methods in an INTERFACE cannot be inherited as well as cannot be overridden.
+
+7. If the child class has exactly same concrete static method as interface, so these two methods are completely independent of each other and are not
+   overridden methods. This is an example of method hiding.
+8. Static method of an interface cannot be final
+9. default access modifier methods can be created in an interface and this default Access Modifier
+   is only introduced for an interface and will not be valid in a class
+10. We can override this default method in the child class only after changing the access modifier
+    of the default method to 'public' as default access modifier is meant  only for an interface.
+    We are able to override this default method from interface even after changing its signature[from default to public] is because this
+    default method is neither static nor final and we know anything which is not final or static can be overridden.
+    => A default method of an interface cab be both inherited and overridden in a child class
