@@ -1,0 +1,8 @@
+1. charAt(index): This helps us in getting the character at any given index
+2. indexOf(char): This helps us in getting the index of any given character
+3. toUpper()    : Will convert your string to upper case
+4. toLower()    : Will convert your string to lower case
+5. trim()       : this replaces the space only at the beginning of the string and not at the end or in between
+6. replace(old character, new character): Replaces old character with new one
+7. contains()   : This checks the  existence of mentioned character sequence
+8.

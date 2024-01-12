@@ -1,0 +1,12 @@
+1. We cannot create object of an abstract method
+2. We cannot create object of an interface as well.
+3. An interface cannot have a constructor
+4. AN ABSTRACT CLASS CAN HAVE CONSTRUCTOR
+5. Child class will always call the non-parametrized (default) constructor
+6. If parent class has parametrized constructor and no non-parametrized(default) constructor, the child class
+   will not appreciate this[as in P-C relationship, child can call only non-parametrized(default) constructor] and will
+   throw error.
+   => So, in a parent class, if you have a non-parametrized constructor, please ensure you
+   have a parametrized constructor created as well.
+7. Top casting is possible between abstract parent class(A) and child class (C)
+   A a = new C();
