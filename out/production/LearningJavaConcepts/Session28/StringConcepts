@@ -1,0 +1,24 @@
+1. String is immutable [Something that cannot be changed]
+   Since String is immutable so a lot of non-referenced object is created within the Heap memory which occupies unnecessary space.
+
+   To overcome this problem, Java created two classes to handle string.
+   -StringBuffer[1.0]-slower, Synchronized, Thread-safe
+   -StringBuilder[1.5]- faster, Non-Synchronized, Not Thread-safe
+
+   In case of String, once a String is created using String class, we cannot modify that String. If we try to do so,
+   it will always create a new object in the heap memory whereas if we create object using StringBuffer or StringBuilder
+   and try to modify the same String, it will always update the existing string instead of creating a new Object.
+   Which proves, String is immutable however StringBuffer and StringBuilder are mutable.
+
+   String management in Memory.
+   1. String literals are stored in special memory section called String Constant Pool inside Heap memory
+   2. String constant pool cannot hold duplicate values
+   a) == always compares the objects
+   b) equals() method compares the values of the respective objects
+
+   If i create String using String literals, both == and equals() gives identical results.
+   If i create String using new keyword, both == and equals() will give different results.
+
+   => We should always prefer using equals() rather than == to compare string.
+
+
